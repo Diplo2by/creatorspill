@@ -12,13 +12,13 @@ const Navbar = () => {
                         <Image src={logo} alt='' height={50} width={50} />
                     </div>
                     <ul className='flex gap-5 items-center'>
-                        <li><Link href=''>Home</Link></li>
-                        <li><Link href=''>Who we are</Link></li>
-                        <li><Link href=''>Our Creators</Link></li>
+                        <li className='transition ease-in-out delay-150 hover:translate-y-1 hover:scale-110 duration-300'><Link href=''>Home</Link></li>
+                        <li className='transition ease-in-out delay-150 hover:translate-y-1 hover:scale-110 duration-300'><Link href=''>Who we are</Link></li>
+                        <li className='transition ease-in-out delay-150 hover:translate-y-1 hover:scale-110 duration-300'><Link href=''>Our Creators</Link></li>
                     </ul>
                 </div>
                 <div id='icons'>
-                    <button className='w-[110px] p-[8px] bg-[#da4ea2] text-white border-none rounded-[5px] cursor-pointer '>Contact us</button>
+                    <button className='w-[110px] p-[8px] bg-[#da4ea2] text-white border-none rounded-[5px] cursor-pointer transition ease-in-out delay-150 hover:translate-y-1 hover:scale-110 duration-300'>Contact us</button>
                 </div>
             </div>
         </div>
