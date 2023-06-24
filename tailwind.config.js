@@ -11,7 +11,19 @@ module.exports = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      animation:{
+        'anime':'anime 1s infinite ease alternate',
+      },
+      keyframes:{
+        'anime':{
+        '100%':{
+            transform: 'translateY(20px)',
+          },
+        },
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-animated')
+  ],
 }
