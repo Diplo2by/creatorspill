@@ -1,10 +1,6 @@
 import About from "./components/About"
 import Hero from "./components/Hero"
 import Work from "./components/Work"
-import Navbar from "./components/Navbar"
-import Contact from "./components/Contact"
-import { styled } from "styled-components"
-
 
 export default function Home() {
   return (

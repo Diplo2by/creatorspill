@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import Image from 'next/image'
 import { Canvas } from '@react-three/fiber'
-import { OrbitControls, Sphere, MeshDistortMaterial } from "@react-three/drei";
+import { OrbitControls, Sphere, MeshDistortMaterial, GradientTexture,GradientType } from "@react-three/drei";
 
 
 const Hero = () => {
@@ -25,10 +25,11 @@ const Hero = () => {
                             <directionalLight position={[3, 2, 1]} />
                             <Sphere args={[1, 100, 200]} scale={1.5}>
                                 <MeshDistortMaterial
-                                    color="#220736"
                                     attach="material"
                                     distort={0.5}
-                                    speed={2} />
+                                    speed={2}>
+                                    <GradientTexture stops={[0, 0.1,1]} colors={['#ED2C52', '#db2777','#d8b4fe']} size={1000} type={GradientType.Radial} />
+                                </MeshDistortMaterial>
                             </Sphere>
                         </Canvas>
                     </div>
