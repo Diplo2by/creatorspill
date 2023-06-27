@@ -8,7 +8,7 @@ import { styled } from "styled-components"
 
 export default function Home() {
   return (
-    <div className="h-screen snap-mandatory snap-y scroll-smooth overflow-y-auto text-white bg-[url('/images/bg.jpeg')]">
+    <div className="h-screen snap-mandatory snap-y scroll-smooth overflow-y-auto text-white bg-[url('/images/bg.jpeg')] no-scrollbar">
       <Hero />
       <About />
       <Work />
