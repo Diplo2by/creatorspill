@@ -12,9 +12,9 @@ const Navbar = () => {
                         <Image src={logo} alt='' height={50} width={50} />
                     </div>
                     <ul className='flex gap-5 items-center'>
-                        <li className='transition ease-in-out delay-150 hover:translate-y-1 hover:scale-110 duration-300'><Link href=''>Home</Link></li>
-                        <li className='transition ease-in-out delay-150 hover:translate-y-1 hover:scale-110 duration-300'><Link href=''>Who we are</Link></li>
-                        <li className='transition ease-in-out delay-150 hover:translate-y-1 hover:scale-110 duration-300'><Link href=''>Our Creators</Link></li>
+                        <li className='transition ease-in-out delay-150 hover:translate-y-1 hover:scale-110 duration-300'><Link href='/'>Home</Link></li>
+                        <li className='transition ease-in-out delay-150 hover:translate-y-1 hover:scale-110 duration-300'><Link href='/#about'>Who we are</Link></li>
+                        <li className='transition ease-in-out delay-150 hover:translate-y-1 hover:scale-110 duration-300'><Link href='/#creators'>Our Creators</Link></li>
                     </ul>
                 </div>
                 <div id='icons'>

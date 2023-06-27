@@ -3,8 +3,8 @@ import Member from './Member'
 
 const Work = () => {
   return (
-    <div className='h-screen snap-center'>
-      <div className="container my-24 mx-auto md:px-6">
+    <div className='h-screen snap-center mx-auto' id='creators'>
+      <div className="container my-24 md:px-6">
         <section className="mb-32 text-center">
           <h2 className="mb-12 text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-pink-600">
             Who we work <u className="text-primary dark:text-primary-400">with</u>

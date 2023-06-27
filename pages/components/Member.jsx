@@ -21,13 +21,13 @@ const Member = ({ name, picture, twitch, twitter, youtube }) => {
                     <h5 className="mb-4 text-lg font-bold">{name}</h5>
                     <p className="mb-4 text-neutral-500 dark:text-neutral-300"></p>
                     <ul className="mx-auto flex list-inside justify-center gap-5">
-                        <a href={twitch}>
+                        <a href={twitch} target='blank'>
                             <BsTwitch />
                         </a>
-                        <a href={twitter}>
+                        <a href={twitter} target='blank'>
                             <BsTwitter />
                         </a>
-                        <a href={youtube}>
+                        <a href={youtube} target='blank'>
                             <BsYoutube />
                         </a>                    </ul>
                 </div>
