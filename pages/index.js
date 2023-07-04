@@ -12,7 +12,7 @@ export default function Home() {
       <title>LvL up Creators</title>
       <link rel='icon' href='/icons/favicon.ico'/>
     </Head>
-    <div className="h-screen snap-mandatory snap-y scroll-smooth overflow-y-auto text-white bg-[url('/images/bg.jpeg')] no-scrollbar">
+    <div className="h-screen snap-mandatory snap-y scroll-smooth overflow-y-auto text-white bg-[url('/images/bg.jpeg')] no-scrollbar max-sm:overflow-x-hidden">
       <Hero />
       <About />
       <Work />

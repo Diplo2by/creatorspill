@@ -9,7 +9,7 @@ const Hero = () => {
     return (
         <div className='h-screen snap-center flex flex-col items-center justify-between overflow-hidden '>
             <Navbar />
-            <div id='container' className='h-screen snap-center w-[1400px] flex justify-between'>
+            <div id='container' className='h-screen snap-center w-[1400px] flex justify-between max-sm:w-screen'>
                 <div id='left' className='w-[2/5] flex flex-col justify-center gap-5'>
                     <h1 className='text-[60px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-pink-600'>Creators, Clients and More.</h1>
                     <div id='subtitle' className='text-[#da4ea2]'>
