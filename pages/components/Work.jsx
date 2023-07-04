@@ -4,7 +4,7 @@ import YtMember from './YtMember'
 
 const Work = () => {
   return (
-    <div className='h-screen snap-center mx-auto max-sm:px-2' id='creators'>
+    <div className='h-screen snap-center mx-auto max-sm:px-2 max-sm:snap-end' id='creators'>
       <div className="container my-24 md:px-6 lg:mx-auto">
         <section className="mb-32 text-center snap-end">
           <h2 className="mb-12 text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-pink-600">
