@@ -18,7 +18,9 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div id='icons'>
-                    <button className='w-[110px] p-[8px] bg-[#da4ea2] text-white border-none rounded-[5px] cursor-pointer transition ease-in-out delay-150 hover:translate-y-1 hover:scale-110 duration-300'>Contact us</button>
+                    <Link href={'mailto:sayhi@lvlupcreators.com'}>
+                        <button className='w-[110px] p-[8px] bg-[#da4ea2] text-white border-none rounded-[5px] cursor-pointer transition ease-in-out delay-150 hover:translate-y-1 hover:scale-110 duration-300'>Contact us</button>
+                    </Link>
                 </div>
             </div>
         </div>
