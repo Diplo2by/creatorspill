@@ -11,7 +11,14 @@ export default function Home() {
     <>
       <Head>
         <title>LvL up | Creators, Brands & More. </title>
-        <link rel='icon' href='/icons/favicon.ico' />
+        <link rel='icon' href='/favicon.ico' />
+        <meta property="og:url" content="https://www.lvlupcreators.com/" />
+        <meta name="description" content="Creators, Brands and More." key="desc" />
+        <meta name="robots" content="max-snippet:84" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Lvl Up Creatores | Creators, Brands and More." />
+        <meta property="og:image" content="https://www.lvlupcreators.com/images/preview.jpg" />
+
       </Head>
       <div className="h-screen snap-mandatory snap-y scroll-smooth overflow-y-auto text-white bg-[url('/images/bg.jpeg')] no-scrollbar max-sm:overflow-x-hidden">
         <Hero />
