@@ -18,7 +18,7 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Lvl Up Creatores | Creators, Brands and More." />
         <meta property="og:image" content="https://www.lvlupcreators.com/images/preview.jpg" />
-
+        <meta property="og:description" content="Creators, Brands and More." />
       </Head>
       <div className="h-screen snap-mandatory snap-y scroll-smooth overflow-y-auto text-white bg-[url('/images/bg.jpeg')] no-scrollbar max-sm:overflow-x-hidden">
         <Hero />
