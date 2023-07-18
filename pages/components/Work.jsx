@@ -39,6 +39,12 @@ const Work = () => {
               youtube={'https://www.youtube.com/@FadyOfficial'}
               twitter={'https://twitter.com/FadyYT'}
             />
+            <YtMember
+              name='JSM'
+              twitter='https://twitter.com/JSMYT3'
+              youtube='https://www.youtube.com/@JSM24'
+              picture='/images/creators/jsm.png'
+            />
           </div>
         </section>
       </div>
