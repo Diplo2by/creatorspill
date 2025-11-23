@@ -1,6 +1,5 @@
 import React from 'react'
-import Member from './Member'
-import YtMember from './YtMember'
+import CreatorCard from './CreatorCard'
 
 const Work = () => {
   return (
@@ -11,35 +10,34 @@ const Work = () => {
             Who we work <u className="text-primary dark:text-primary-400">with</u>
           </h2>
           <div className="w-[90%] mx-auto grid gap-7 md:grid-cols-3 lg:gap-x-12 max-sm:grid-cols-1">
-            <Member
+            <CreatorCard
               twitch="https://www.twitch.tv/xcaliburye/"
               name="XcaliburYe"
               picture='/images/creators/xcali2.jpg'
               youtube='https://www.youtube.com/c/xcaliburye'
               twitter='https://twitter.com/XcaliburYe'
-
             />
-            <Member
+            <CreatorCard
               name="Rezone Games"
               picture='/images/creators/rezone.jpg'
               twitch={'https://www.twitch.tv/rezonegames'}
               youtube={'https://www.youtube.com/channel/UCtEuxAdDjHzFhq6QL0rgSRw'}
               twitter={'https://twitter.com/RezoneGAMES'}
             />
-            <Member
+            <CreatorCard
               name='AttackerDota'
               picture='/images/creators/attacker.avif'
               twitch={'https://www.twitch.tv/attacker'}
               youtube={'https://www.youtube.com/@Attackerdota/'}
               twitter={'https://twitter.com/attackerdota'}
             />
-            <YtMember
+            <CreatorCard
               name='Fady'
               picture='/images/creators/fady3.jpg'
               youtube={'https://www.youtube.com/@FadyOfficial'}
               twitter={'https://twitter.com/FadyYT'}
             />
-            <YtMember
+            <CreatorCard
               name='JSM'
               twitter='https://twitter.com/JSMYT3'
               youtube='https://www.youtube.com/@JSM24'
